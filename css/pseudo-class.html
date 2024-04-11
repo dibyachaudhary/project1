@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:first-child{background: palevioletred !important;}
+        p:last-child{background: purple !important;}
+        p:nth-child(3),p:nth-child(4){background: olivedrab;}
+        p:nth-child(odd){background: palegreen;}
+        p:nth-child(even){background: rebeccapurple;}
+        a:visited{color:aqua;}
+        a:link{color:blue;}
+        a:hover{color: yellowgreen;}
+        a:active{color: blanchedalmond;}
+        :root{
+            --brand:rgb(159, 20, 20);
+            --size:200px;
+        }
+        h1{width: var(--size);height: var(--size);background: var(--brand);}
+        input:read-only{color: aqua;}
+        input:disabled{color: black;}
+        input:focus{color: azure;}
+        input:required{color: gold;}
+    </style>
+</head>
+<body>
+    
+    <input type="text" value="dibya"readonly>
+    <input type="text" value="dibya"disable>
+    <input type="text" value="dibya"> 
+    <input type="text" value="dibya"required>
+    <h1></h1>
+    <a href="https://google.com">fb</a> 
+    <a href="https://jpt.com">fb</a>
+    pseudo class
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, fuga.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, fuga.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, fuga.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, fuga.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, fuga.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, fuga.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, fuga.</p>
+
+    </div>
+    
+</body>
+</html>
